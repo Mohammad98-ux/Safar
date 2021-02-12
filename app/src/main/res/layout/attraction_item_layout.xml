@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        tools:background="@color/background_black">
+
+    <TextView
+            android:id="@+id/attraction_name"
+            style="@style/NameAboveImage"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#BBBBBB"
+            tools:text="Petra" />
+
+    <ImageView
+            android:id="@+id/attraction_image"
+            style="@style/ImageBelowText"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            tools:src="@drawable/jordan_overview_petra" />
+
+</LinearLayout>

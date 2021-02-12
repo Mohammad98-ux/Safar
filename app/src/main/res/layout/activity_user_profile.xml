@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_black"
+        android:orientation="vertical"
+        tools:context=".ui.UserProfileActivity">
+
+    <ImageView
+            android:id="@+id/user_avatar_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/app_icon2" />
+
+    <RelativeLayout
+            android:id="@+id/username_in_profile_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/boxBackgroundInProfileActivity"
+            android:padding="10dp">
+
+        <TextView
+                android:id="@+id/user_name_in_profile_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/usernameInProfile"
+                android:textColor="@color/blueTextView"
+                android:textSize="22sp" />
+
+        <TextView
+                android:id="@+id/user_name_in_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toEndOf="@id/user_name_in_profile_tv"
+                android:layout_toRightOf="@id/user_name_in_profile_tv"
+                android:textColor="@color/whiteTextView"
+                android:textSize="20sp"
+                tools:text="Laith Al-Zou'bi" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/user_email_in_profile_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/boxBackgroundInProfileActivity"
+            android:padding="10dp">
+
+        <TextView
+                android:id="@+id/user_email_in_profile_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/userEmailInProfile"
+                android:textColor="@color/blueTextView"
+                android:textSize="22sp" />
+
+        <TextView
+                android:id="@+id/user_email_in_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toEndOf="@id/user_email_in_profile_tv"
+                android:layout_toRightOf="@id/user_email_in_profile_tv"
+                android:textColor="@color/whiteTextView"
+                android:textSize="20sp"
+                tools:text="laithdev@gmail.com" />
+
+    </RelativeLayout>
+
+    <Button
+            android:id="@+id/change_password_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_corner_button"
+            android:text="@string/change_password"
+            android:textColor="#FFFFFF" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="180dp"
+            android:text="@string/profile_activity_tip"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="25sp" />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

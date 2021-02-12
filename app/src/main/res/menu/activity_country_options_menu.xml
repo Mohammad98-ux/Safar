@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/search_itm"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="@string/search_item"
+            app:actionViewClass="androidx.appcompat.widget.SearchView"
+            app:showAsAction="ifRoom" />
+
+    <item
+            android:id="@+id/go_to_favourites_itm"
+            android:title="@string/go_to_favourites" />
+
+    <item
+            android:id="@+id/logout_itm"
+            android:title="@string/logout"
+            app:showAsAction="never" />
+
+</menu>
+
+
+
+
+
+
+

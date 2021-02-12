@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blue_background_1"
+        tools:context=".ui.MainActivity">
+
+    <TextView
+            android:id="@+id/welcome_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/username__login_et"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:scaleY="1.5"
+            android:text="@string/welcome"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#8DDBFF"
+            android:textScaleX="1.5" />
+
+    <EditText
+            android:id="@+id/username__login_et"
+            style="@style/EditTextsStyle"
+            android:layout_width="280dp"
+            android:layout_above="@id/password_login_et"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#1677FF"
+            android:hint="@string/user_name_hint" />
+
+    <EditText
+            android:id="@+id/password_login_et"
+            style="@style/EditTextsStyle"
+            android:layout_above="@id/auto_sign_in_check_box"
+            android:layout_marginTop="10dp"
+            android:background="#1677FF"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword" />
+
+    <CheckBox
+            android:id="@+id/auto_sign_in_check_box"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/center_text_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:alpha="0.9"
+            android:text="@string/sign_in_automatically"
+            android:textColor="#DDDDDD"
+            android:textSize="15sp" />
+
+    <TextView
+            android:id="@+id/center_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+    <Button
+            android:id="@+id/sign_in_btn"
+            style="@style/ButtonsStyle"
+            android:layout_below="@id/center_text_view"
+            android:background="@drawable/rounded_corner_button"
+            android:text="@string/sign_in_button" />
+
+    <TextView
+            android:id="@+id/dont_have_account_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sign_in_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="15dp"
+            android:alpha="0.5"
+            android:text="@string/dont_have_account"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    <Button
+            android:id="@+id/sign_up_btn"
+            style="@style/ButtonsStyle"
+            android:layout_below="@id/dont_have_account_tv"
+            android:background="@drawable/rounded_corner_button"
+            android:text="@string/sign_up_button"
+            android:textSize="12sp" />
+
+</RelativeLayout>

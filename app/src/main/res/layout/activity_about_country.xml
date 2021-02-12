@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.AboutCountryActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#111111"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+        <TextView
+                style="@style/AboutCountryActivityHeaderTextViews"
+                android:text="@string/location" />
+
+        <TextView
+                android:id="@+id/country_location"
+                style="@style/InfoFragmentHeaderResultTextViews"
+                android:textSize="22sp"
+                tools:text="Asia, Middle East" />
+
+        <TextView
+                style="@style/AboutCountryActivityHeaderTextViews"
+                android:text="@string/population" />
+
+        <TextView
+                android:id="@+id/country_population"
+                style="@style/InfoFragmentHeaderResultTextViews"
+                tools:text="9.956 M" />
+
+        <TextView
+                style="@style/AboutCountryActivityHeaderTextViews"
+                android:text="@string/area" />
+
+        <TextView
+                android:id="@+id/country_area"
+                style="@style/InfoFragmentHeaderResultTextViews"
+                tools:text="89,342 Square Kilometers" />
+
+        <TextView
+                style="@style/AboutCountryActivityHeaderTextViews"
+                android:text="@string/capital" />
+
+        <TextView
+                android:id="@+id/country_capital"
+                style="@style/InfoFragmentHeaderResultTextViews"
+                tools:text="Amman" />
+
+        <TextView
+                style="@style/AboutCountryActivityHeaderTextViews"
+                android:text="@string/neighbouring_countries" />
+
+        <TextView
+                android:id="@+id/neighbouring_countries"
+                style="@style/InfoFragmentHeaderResultTextViews"
+                tools:text="Syria (North)\nIraq (West)\nSaudi Arabia (South)\nPalestine (West)" />
+
+        <TextView
+                style="@style/AboutCountryActivityHeaderTextViews"
+                android:text="@string/currency" />
+
+        <TextView
+                android:id="@+id/country_currency"
+                style="@style/InfoFragmentHeaderResultTextViews"
+                tools:text="Jordanian Dinar (JOD)" />
+
+        <TextView
+                style="@style/AboutCountryActivityHeaderTextViews"
+                android:text="@string/quick_history" />
+
+        <TextView
+                android:id="@+id/country_quick_history"
+                style="@style/InfoFragmentHeaderResultTextViews"
+                android:layout_marginBottom="10dp"
+                tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+
+        <Button
+                android:id="@+id/country_see_wiki_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_corner_button"
+                android:text="@string/see_wikipedia"
+                android:textColor="#DDDDDD" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+

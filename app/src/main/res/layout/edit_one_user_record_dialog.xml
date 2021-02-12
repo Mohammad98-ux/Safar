@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:minWidth="200dp"
+        android:minHeight="200dp"
+        android:orientation="vertical"
+        tools:background="@color/background_black">
+
+    <EditText
+            android:id="@+id/edit_one_user_record_et"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/whiteTextView"
+            android:layout_marginBottom="20dp"
+            android:textSize="25sp"
+            tools:text="Laith Al-Zou'bi" />
+
+    <EditText
+            android:id="@+id/current_password_et"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/current_password"
+            android:inputType="textPassword"
+            android:textColor="@color/whiteTextView"
+            android:textColorHint="@color/whiteTextView"
+            android:textSize="25sp" />
+
+</LinearLayout>
+
+
+
+
+
+
+

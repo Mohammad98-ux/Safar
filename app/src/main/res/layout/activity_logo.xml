@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        tools:context=".ui.LogoActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:scaleX="1.3"
+            android:scaleY="1.3"
+            android:text="@string/welcome"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+
+    <ImageView
+            android:id="@+id/earth_image_view"
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:onClick="cancelAnim"
+            android:scaleType="fitXY"
+            android:src="@drawable/earth" />
+
+    <ImageView
+            android:id="@+id/airplane_image_view"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/earth_image_view"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginRight="120dp"
+            android:src="@drawable/airplane" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+

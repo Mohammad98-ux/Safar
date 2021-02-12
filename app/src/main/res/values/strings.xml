@@ -1,0 +1,577 @@
+<resources>
+    <string name="app_name">Safar</string>
+    <string name="welcome">Welcome to Safar</string>
+    <string name="user_name_hint">username</string>
+    <string name="password_hint">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="login_label">Log In</string>
+    <string name="email_hint">email</string>
+    <string name="register">register</string>
+    <string name="visit_opt_itm">Visit Jordan</string>
+    <string name="choose_a_country">Choose a country</string>
+    <string name="visit">visit</string>
+    <string name="settings">Settings</string>
+    <string name="favourite">Favourites</string>
+    <string name="mark_as_favourite">Mark as favourite</string>
+    <string name="admin_login_item">Admin Login</string>
+    <string name="admin_login">Login</string>
+    <string name="view_all_users">View All Users</string>
+    <string name="long_click_on_user_note">*Click on a user to perform actions</string>
+    <string name="enter_admin_password">Enter Admin Password</string>
+    <string name="delete">Delete</string>
+    <string name="location">Location</string>
+    <string name="population">Population</string>
+    <string name="area">Area</string>
+    <string name="capital">Capital</string>
+    <string name="neighbouring_countries">Neighbouring Countries</string>
+    <string name="currency">Currency</string>
+    <string name="quick_history">Quick History</string>
+
+    <string name="jordan_quick_history">Jordan is a young state that occupies an ancient land,
+        one that bears the traces of many civilizations. Separated from ancient Palestine by
+        the Jordan River, the region played a prominent role in biblical history.\n\nThe ancient
+        biblical kingdoms of Moab, Gilead, and Edom lie within its borders, as does the famed red
+        stone city of Petra, the capital of the Nabatean kingdom and of the Roman province of
+        Arabia Petraea. British traveler Gertrude Bell said of Petra, “It is like a fairy tale
+        city, all pink and wonderful.” Part of the Ottoman Empire until 1918 and later a mandate
+        of the United Kingdom, Jordan has been an independent kingdom since 1946.\n\nIt is among
+        the most politically liberal countries of the Arab world, and, although it shares in the
+        troubles affecting the region, its rulers have expressed a commitment to maintaining
+        peace and stability.</string>
+
+    <string name="japan_quick_history">Japan was settled about 35,000 years ago by Paleolithic
+        people from the Asian mainland. At the end of the last Ice Age, about 10,000 years ago,
+        a culture called the Jomon developed. Jomon hunter–gatherers fashioned fur clothing,
+        wooden houses, and elaborate clay vessels. According to DNA analysis, the Ainu people
+        may be descendants of the Jomon.\n\nThe second wave of settlement by the Yayoi people
+        introduced metal–working, rice cultivation, and weaving to Japan. DNA evidence suggests
+        that these settlers came from Korea.\n\nThe first era of recorded history in Japan is the
+        Kofun (A.D. 250–538), which was characterized by large burial mounds or tumuli. The Kofun
+        were headed by a class of aristocratic warlords; they adopted many Chinese customs
+        and innovations.</string>
+
+    <string name="canada_quick_history">The land that is now Canada was first home to nations of
+        Indigenous peoples. In 1497 explorer John Cabot reached the east coast of present day
+        Canada, and in 1534 Jacques Cartier explored the Gulf of St Lawrence and claimed the land
+        for France.\n\nCartier established the first French settlement in 1541 at
+        Charlesbourg-Royal, and by 1604 settlement of what is now known as New France begins.
+        In 1627 The Company of One Hundred Associates is formed to help colonize New France.
+        \n\nMeanwhile, Britain grants a Royal Charter in 1621 to Sir William Alexander giving him
+        a barony that included Nova Scotia, Cape Breton Island, St John\'s Island (now Prince
+        Edward Island), and the Gaspé Peninsula.</string>
+
+    <string name="norway_quick_history">The earliest traces of human occupation in Norway are found
+        along the coast, where the huge ice shelf of the last ice age first melted between 11,000
+        and 8000 bce.\n\nThe oldest finds are stone tools dating from 9500 to 6000 bce, discovered
+        in Finnmark in the north and Rogaland in the southwest. Theories of a “Komsa” type of
+        stone-tool culture north of the Arctic Circle and a “Fosna” type from Trøndelag to Oslo
+        Fjord were rendered obsolete in the 1970s. More recent finds along the entire coast
+        revealed to archaeologists that the difference between the two can simply be ascribed to
+        different types of tools and not to different cultures.\n\nCoastal fauna provided a means
+        of livelihood for fishermen and hunters, who may have made their way along the southern
+        coast about 10,000 bce when the interior was still covered with ice. It is now thought
+        that these so-called “Arctic” peoples came from the south and followed the coast northward
+        considerably later. Some may have come along the ice-free coast of the Kola Peninsula, but
+        the evidence of this is still poor.</string>
+
+    <string name="chile_quick_history">Before being discovered by the Europeans, Chile was inhabited
+        by several tribes of Native Americans; including the Inca in the north and the Araucanian
+        tribes in the south.In 1520 Ferdinand Magellan was the first European to see Chile. In 1540
+        Pedro de Valdivia a Spanish conquistador came to Chile were he founded several cities,
+        despite resistance from the Araucanians.\n\nOne of these cities he founded was Santiago,
+        which is now Chile\'s capitol and largest city. In 1553 the Native Americans led several
+        successful revolts against the Spanish conquerors, killing Valdivia and devastating most
+        of the cities he founded. This lead to nearly 100 years of warfare. Eventually the Spanish
+        dominated, but even then strife and conflicts continued for many more years.</string>
+
+    <string name="uae_quick_history">The largest of these emirates, Abu Dhabi, which comprises more
+        than three-fourths of the federation\’s total land area, is the centre of its oil industry
+        and borders Saudi Arabia on the federation\’s southern and eastern borders. The port city of
+        Dubai, located at the base of the mountainous Musandam Peninsula, is the capital of the
+        emirate of Dubai and is one of the region\’s most vital commercial and financial centres,
+        housing hundreds of multinational corporations in a forest of skyscrapers.\n\nThe smaller
+        emirates of Sharjah, Umm al-Qaywayn, and Ra\ʾs Al-Khaymah also occupy the peninsula, whose
+        protrusion north toward Iran forms the Strait of Hormuz linking the Persian Gulf to the Gulf
+        of Oman. The federation\’s seventh member, Al-Fujayrah, faces the Gulf of Oman and is the
+        only member of the union with no frontage along the Persian Gulf.</string>
+
+    <string name="germany_quick_history">Germany, officially Federal Republic of Germany, German
+        Deutschland or Bundesrepublik Deutschland, country of north-central Europe, traversing the
+        continent\’s main physical divisions, from the outer ranges of the Alps northward across the
+        varied landscape of the Central German Uplands and then across the North German Plain.
+        \n\nOne of Europe\’s largest countries, Germany encompasses a wide variety of landscapes:
+        the tall, sheer mountains of the south; the sandy, rolling plains of the north; the forested
+        hills of the urbanized west; and the plains of the agricultural east.\n\nAt the spiritual
+        heart of the country is the magnificent east-central city of Berlin, which rose phoenixlike
+        from the ashes of World War II and now, after decades of partition, is the capital of a
+        reunified Germany, and the Rhine River, which flows northward from Switzerland and is
+        celebrated in visual art, literature, folklore, and song. </string>
+
+    <string name="find_location">Find Location</string>
+    <string name="find_public_places">Find Public Places</string>
+    <string name="more_info">More Info</string>
+
+    <string name="petra_more_info">PETRA … More Than A Wonder\n\nThe city of Petra, capital
+        of the Nabataean Arabs, is one of the most famous archaeological sites in the world,
+        it is Located 240 km south of the capital Amman and 120 km north of the red sea town of
+        Aqaba, Petra the world wonder, is undoubtedly Jordan\'s most valuable
+        treasure and greatest tourist attraction, and it is visited by tourists from all over
+        the world.</string>
+
+    <string name="wadi_rum_more_info">Wadi Rum has been inhabited by many human cultures since
+        prehistoric times, with many cultures–including the Nabataeans–leaving their mark in the
+        form of petroglyphs, inscriptions, and temple. In the West, Wadi Rum may be best known for
+        its connection with British officer T. E. Lawrence, who passed through several times
+        during the Arab Revolt of 1917–18. In the 1980s one of the rock formations in Wadi Rum,
+        originally known as Jabal al-Mazmar (The Mountain of (the) Plague), was named \"The Seven
+        Pillars of Wisdom,\" after Lawrence\'s book penned in the aftermath of the war, though the
+        \'Seven Pillars\' referred to in the book have no connection with Rum.</string>
+
+    <string name="aqaba_more_info">Aqaba\'s strategic location at the northeastern tip of the Red
+        Sea between the continents of Asia and Africa, has made its port important over the course
+        of thousands of years.\n\nThe ancient city was called Elath, adopted in Latin as Aela and in
+        Arabic as Ayla. Its strategic location and proximity to copper mines made it a regional
+        hub for copper production and trade in the Chalcolithic period. Aela became a bishopric
+        under Byzantine rule and later became a Latin Catholic titular see after Islamic conquest
+        around AD 650, when it became known as Ayla; the name Aqaba is late medieval. The Great
+        Arab Revolt\'s Battle of Aqaba, depicted in the film Lawrence of Arabia,resulted in victory
+        for Arab forces over the Ottoman defenders.</string>
+
+    <string name="roman_theater_more_info">The Roman Amphitheater is located in the eastern part
+        of the Jordanian capital, Amman. It is specifically at the foot of Jabal Al-Joufah, on a
+        hill opposite the Amman Citadel. A Greek inscription on one of the pillars indicates that
+        this amphitheater was built in honour of Emperor Antonius Pius (138–161 CE).\n\nThe large and
+        steeply raked structure could seat about 6,000 people: built into the hillside, it was
+        oriented north to keep the sun off the spectators.\n\nIt was divided into three horizontal
+        sections (diazomata). Side entrances (paradoi) existed at ground level, one leading to the
+        orchestra and the other to the stage. Rooms behind these entrances now house the Jordan
+        Museum of Popular Tradition on the one side, and the Jordan Folklore Museum on the other
+        side.</string>
+
+    <string name="nebo_more_info">During the 4th century AD a church was constructed on Mount Nebo,
+        and said to honor Moses, although the church was most likely built on the site of a much
+        older building of worship.\n\nOver the next two hundred years the church was extended and
+        improved to cater for the larger influx of pilgrims as the word of Christianity spread
+        across the world. Finally, the church became part of a monastery and was increased in
+        size to become a basilica and became the focus point of pilgrimage for over six hundred
+        years.</string>
+
+    <string name="imperial_more_info">The Tokyo Imperial Palace \'Imperial Residence\' is the usual
+        residence of the Emperor of Japan. It is a large park-like area located in the Chiyoda
+        district of the Chiyoda ward of Tokyo and contains several buildings including the main
+        palace, some residences of the Imperial Family, an archive, museums and administrative
+        offices.\n\nIt is built on the site of the old Edo Castle. The total area including the
+        gardens is 1.15 square kilometres (0.44 sq mi). During the height of the 1980s Japanese
+        property bubble, the palace grounds were valued by some to be more than the value of all
+        of the real estate in the state of California.</string>
+
+    <string name="shrine_more_info">Itsukushima Shrine is a Shinto shrine on the island of
+        Itsukushima (popularly known as Miyajima), best known for its "floating" torii gate.
+        It is in the city of Hatsukaichi in Hiroshima Prefecture in Japan. The shrine complex
+        is listed as a UNESCO World Heritage Site, and the Japanese government has designated
+        several buildings and possessions as National Treasures.\n\nThe Itsukushima shrine is
+        one of Japan\'s most popular tourist attractions. It is most famous for its dramatic gate,
+        or torii on the outskirts of the shrine, the sacred peaks of Mount Misen, extensive forests,
+        and its aesthetic ocean view. The shrine complex itself consists of two main buildings:
+        the Honsha shrine and the Sessha Marodo-jinja, as well as 17 other different buildings
+        and structures that help to distinguish it. The complex is also listed as a UNESCO World
+        Heritage Site, and six of its buildings and possessions have been designated by the Japanese
+        government as National Treasures.</string>
+
+    <string name="fuji_more_info">Mount Fuji located on the island of Honshū, is the highest
+        mountain in Japan, standing 3,776.24 m (12,389.2 ft). It is the second-highest volcano
+        located on an island in Asia (after Mount Kerinci on the island of Sumatra), and
+        seventh-highest peak of an island on Earth. Mount Fuji is an active stratovolcano that
+        last erupted from 1707 to 1708. The mountain stands about 100 km (62 mi) southwest of
+        Tokyo and is visible from there on clear days. Mount Fuji\'s exceptionally symmetrical
+        cone, which is snow-capped for about five months of the year, is commonly used as a
+        cultural icon of Japan and it is frequently depicted in art and photography, as well
+        as visited by sightseers and climbers.</string>
+
+    <string name="arashiyama_more_info">Arashiyama is in the far west of Kyoto, tucked along the
+        base of the Arashiyama Mountains (meaning \"Storm Mountains\”). It\’s a fair distance from
+        the center of Kyoto: whether you go by train, bus, bicycle or taxi, you\’re generally
+        looking at about a 30-minute trip. Still, it\’s worth it for the number of great
+        sights here.</string>
+
+    <string name="osaka_castle_more_info">The main tower of Osaka Castle is situated on a plot of
+        land roughly one square kilometer. It is built on two raised platforms of landfill
+        supported by sheer walls of cut rock, using a technique called Burdock piling, each
+        overlooking a moat. The central castle building is five stories on the outside and eight
+        stories on the inside, and built atop a tall stone foundation to protect its occupants
+        from attackers.\n\nThe castle grounds, which cover approximately 61,000 square meters
+        (15 acres), contain thirteen structures that have been designated as important cultural
+        assets by the Japanese government.</string>
+
+    <string name="bay_of_fundy_more_info">The Bay of Fundy is a bay
+        between the Canadian provinces of New Brunswick and Nova Scotia, with a small portion
+        touching the US state of Maine. It has an extremely high tidal range. The name is likely
+        a corruption of the French word Fendu, meaning \"split\".</string>
+
+    <string name="quebec_more_info">Old Quebec is a historic neighbourhood of Quebec City, Quebec,
+        Canada. Comprising the Upper Town and LowerTown, the area is a UNESCO World Heritage Site.
+        Administratively,Old Quebec is part of the Vieux-Québec–Cap-Blanc–colline Parlementaire
+        district in the borough of La Cité-Limoilou.\n\nThe area is commonly referred to as
+        \"the Old City\" or \"Quebec\'s Old City\" in English. It is sometimes referred to as the
+        Latin Quarter (French: Quartier latin) as well, although this title refers more to area
+        around the Séminaire de Québec, the original site of Laval University.</string>
+
+    <string name="stanley_park_more_info">Stanley Park is a 405-hectare (1,001-acre) public park
+        that borders the downtown of Vancouver in British Columbia, Canada, and is mostly
+        surrounded by waters of Burrard Inlet and English Bay.\n\nThe park has a long history
+        and was one of the first areas to be explored in the city. The land was originally used
+        by Indigenous peoples for thousands of years before British Columbia was colonized by the
+        British during the 1858 Fraser Canyon Gold Rush. For many years after colonization, the
+        future park with its abundant resources would also be home to non-Indigenous settlers.
+        The land was later turned into Vancouver\'s first park when the city incorporated in 1886.
+        It was named after Lord Stanley, 16th Earl of Derby, a British politician who had recently
+        been appointed Governor General. It was originally known as Coal Peninsula and was set
+        aside for military fortifications to guard the entrance to Vancouver harbour. In 1886
+        Vancouver city council successfully sought a lease of the park which was granted for $1
+        per year. In September 1888 Lord Stanley opened the park in his name.</string>
+
+    <string name="butchart_more_info">The Butchart Gardens is a group of floral display gardens
+        in Brentwood Bay, British Columbia, Canada, located near Victoria on Vancouver Island.
+        The gardens receive over a million visitors each year. The gardens have been designated
+        a National Historic Site of Canada.</string>
+
+    <string name="banff_national_park_more_info">Banff National Park  is Canada\'s oldest national
+        park, established in 1885. Located in Alberta\'s Rocky Mountains, 110–180 kilometres
+         (68–112 mi) west of Calgary, Banff encompasses 6,641 square kilometres(2,564 sq mi)
+        of mountainous terrain, with many glaciers and ice fields, dense coniferous forest,
+        and alpine landscapes. The Infields Parkway extends from Lake Louise, connecting
+        to Jasper National Park in the north. Provincial forests and Yoho National Park are
+        neighbours to the west, while Kootenay National Park is located to the south and Kananask is
+        Country to the southeast. The main commercial centre of the park is the town of Banff, in
+        the Bow River valley.</string>
+
+    <string name="bryggen_more_info">Bryggen (the dock), also known as Tyskebryggen, is a series
+        of Hanseatic heritage commercial buildings lining up the eastern side of the Vågen harbour
+        in the city of Bergen, Norway. Bryggen has been on the UNESCO list for World Cultural
+        Heritage sites since 1979.\n\nThe city of Bergen was founded around 1070 within the
+        boundaries of Tyskebryggen. Around 1350 a Kontor of the Hanseatic League was established
+        there, and Tyskebryggen became the centre of the Hanseatic commercial activities in Norway.
+        Today, Bryggen houses museums, shops, restaurants and pubs. </string>
+
+    <string name="preikestolen_more_info">Preikestolen or Prekestolen (English: \"The Pulpit Rock\",
+        "Pulpit", or "Preacher’s Chair") is a tourist attraction in the municipality of Strand in
+        Rogaland county, Norway. Preikestolen is a steep cliff which rises 604 metres (1,982 ft)
+        above Lysefjorden. Atop the cliff, there is an almost flat top of approximately 25 by 25
+        metres (82 ft × 82 ft). Preikestolen is located near the Western part of the fjord, and on
+        its North side.\n\nTourism at the site has been increasing in the early 21st century,
+        with between 150,000 and 200,000 visitors in 2012, making it one of the most visited
+        natural tourist attractions in Norway. BASE jumpers often leap from the cliff. Due to its
+        increased popularity, there is currently a project under way to improve the most used path
+        to the site - a 3.8-kilometre (2.4 mi) long hike. </string>
+
+    <string name="lofoten_more_info">Lofoten is an archipelago and a traditional district in the
+        county of Nordland, Norway. Lofoten is known for a distinctive scenery with dramatic
+        mountains and peaks, open sea and sheltered bays, beaches and untouched lands. Its largest
+        town, Leknes, is approximately 169 km (105 mi) inside the Arctic Circle and approximately
+        2,420 km (1,500 mi) away from the North Pole, making Lofoten one of the world\'s northernmost
+        populated regions. Though lying within the Arctic Circle, the archipelago experiences one
+        of the world\'s largest elevated temperature anomalies relative to its high latitude.</string>
+
+    <string name="geiranger_fjord_more_info">The Geiranger Fjord is a fjord in the Sunnmøre
+        region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.
+        It is a 15-kilometre (9.3 mi) -long branch off the Sunnylvsfjorden, which is a branch off
+        the Storfjorden (Great Fjord). The small village of Geiranger is located at the end of the
+        fjord where the Geirangelva river empties into it. </string>
+
+    <string name="akershus_fortress_more_info">Akershus Fortress or Akershus Castle is a medieval
+        castle in the Norwegian capital Oslo that was built to protect and provide a royal residence
+        for the city. Since the Middle Ages the fortress has been the namesake and centre of the
+        main fief and later main county of Akershus, which was originally one of Norway\'s four
+        main regions and which included most of Eastern Norway. The fortress itself was located
+        within the Akershus main county until 1919, and also within the smaller Akershus sub county
+        until 1842.\n\nThe castle has also been used as a military base, a prison and is currently
+        the temporary office of the Prime minister of Norway.</string>
+
+    <string name="anakena_more_info">Anakena is a white coral sand beach in Rapa Nui National Park
+        on Rapa Nui (Easter Island), a Chilean island in the Pacific Ocean. Anakena has two ahus;
+        Ahu-Ature has a single moai and Ahu Nao-Nao has seven, two of which have deteriorated.
+        It also has a palm grove and a car park.\n\nAnakena is unusual for Easter Island in that it
+        is one of only two small sandy beaches in an otherwise rocky coastline. </string>
+
+    <string name="el_tatio_more_info">El Tatio is a geyser field located in the Andes Mountains
+        of northern Chile at 4,320 metres (14,170 ft) above mean sea level. Various etymologies
+        have been proposed for the name \"El Tatio\", which might mean \"oven\" or \"grandfather\".
+        It is the third-largest geyser field in the world and the largest in the Southern
+        Hemisphere.\n\nEl Tatio lies at the western foot of a series of stratovolcanoes, which
+        run along the border between Chile and Bolivia. This series of volcanoes is part of the
+        Central Volcanic Zone, one of several volcanic belts in the Andes, and there are no
+        recorded historical eruptions at the Tatio volcanoes. El Tatio is also part of the
+        Altiplano–Puna volcanic complex (APVC), a system of large calderas and associated
+        ignimbrites, which have been the sources of supereruptions. Some of these calderas may
+        be the source of heat for the El Tatio geothermal system. </string>
+
+    <string name="cape_horn_more_info">Cape Horn is the southernmost headland of the Tierra del Fuego
+        archipelago of southern Chile, and is located on the small Hornos Island. Although not
+        the most southerly point of South America (which are the Diego Ramírez Islands), Cape
+        Horn marks the northern boundary of the Drake Passage and marks where the Atlantic and
+        Pacific Oceans meet.\n\nCape Horn is the southernmost headland of the Tierra del Fuego
+        archipelago of southern Chile, and is located on the small Hornos Island. It marks both
+        the northern boundary of the Drake Passage and where the Atlantic and Pacific Oceans
+        meet.</string>
+
+    <string name="villarrica_more_info">Villarrica is a city and commune in southern Chile located
+        on the western shore of Villarrica Lake in the Province of Cautín, Araucanía Region 746
+        km (464 mi) south of Santiago and close to the Villarrica Volcano ski center to the south
+        east. Residents of Villarrica are known as Villarriquences.\n\nTourism, grain and dairy
+        farming, and forestry are the main economic activities of the community. The climate is
+        mild and humid with the greatest rainfall experienced between May and July
+        (autumn and winter). The dry season is between December and February (Summer).\n\nOther
+        lakes found nearby include Calafquén, Caburgua, Huilipilún and Colico. In the summer water
+        sports and sunbathing are popular activities in the warm temperatures experienced at the
+        low altitudes ranging from 200 to 500m above sea level.</string>
+
+    <string name="valley_of_the_moon_more_info">Valley of the Moon is located 13 kilometres (8 mi)
+        west of San Pedro de Atacama, to the north of Chile in the Cordillera de la Sal, in the
+        Atacama desert. It has various stone and sand formations which have been carved by wind
+        and water. It has an impressive range of color and texture, looking somewhat similar to
+        the surface of the moon. There are also dry lakes where the composition of salt makes a
+        white covering layer of the area. It presents diverse saline outcrops which appear
+        like man-made sculptures. There are also a great variety of caverns.\n\nWhen the sun sinks
+        it defines the landscape while the wind blows among the rocks and the sky passes from pink
+        color to purple and finally black. Valle de la Luna is a part of the Reserve National los
+        Flamencos and was declared a Nature Sanctuary in 1982 for its natural environment and
+        strange lunar landscape, from which its name is derived. The Atacama desert is also
+        considered one of the driest places on earth, as some areas have not received a single
+        drop of rain in hundreds of years. A prototype for a Mars rover was tested there by
+        scientists because of the valley\'s dry and forbidding terrains.</string>
+
+    <string name="burj_khalifa_more_info">The Burj Khalifa known as the Burj Dubai prior to its
+        inauguration in 2010, is a skyscraper in Dubai, United Arab Emirates. With a total height
+        of 829.8 m (2,722 ft, just over half a mile) and a roof height (excluding antenna,
+        but including a 244 m) of 828 m (2,717 ft), the Burj Khalifa has been the tallest
+        structure and building in the world since its topping out in 2009 (preceded by Taipei 101).
+    </string>
+
+    <string name="dubai_aquarium_more_info">Dubai Aquarium and Underwater Zoo is home to thousands of
+    aquatic animals, comprising over 140 species. Over 400 Sharks and Rays live in our 10 million
+    litre tank, including Sand Tiger Sharks, Giant Groupers, and a host of other marine species.
+    A series of carefully designed experiences will allow our visitors to come face to face with
+    our aquatic residents for memorable moments with friends and family.</string>
+
+    <string name="palm_jumeirah_more_info">Palm Jumeirah, artificial offshore islands in Dubai,
+        United Arab Emirates, the site of private residences and hotels. From the air, the
+        archipelago resembles a stylized palm tree within a circle. Palm Jumeirah was built in
+        the early 21st century and was largely financed from Dubai\’s substantial income from
+        petroleum.</string>
+
+    <string name="dubai_frame_more_info">The Dubai Frame is located next to the star gate in
+        Zabeel Park. The structure is a colossal rectangular picture frame, with two towers of
+        93 meters wide and 152 meters height straddling an enormous 100 square meter bridge that
+        forms the top of the picture frame.</string>
+
+    <string name="burj_al_arab_more_info">It\’s exceptionally tall Burj Al Arab Jumeirah –
+        which stands at 321m – is 14m taller than the Eiffel Tower and only 60m shorter than
+        the Empire State building. </string>
+
+    <string name="brandenburg_gate_more_info">The Brandenburg Gate is one of Berlin\’s most renowned
+        landmarks. Over the last 200 plus years it has endured several wars, invasions, and intense
+        political changes. Since its construction, the Gate has connected Berlin to the world, and
+        today it stands as a symbol of peace and unity.</string>
+
+    <string name="the_rhine_valley_more_info">The Middle Rhine was the heart of the medieval Holy
+        Roman Empire and the region was a magnet for great artistry, ingenuity, and craftsmanship.
+        During its heyday, it was one of the most important trading areas in Europe—arguably, the
+        world. Journey through the Romantic Rhine Valley and discover the culture, the stories, the
+        gastronomy and wine that makes this one of Europe’s most renowned romantic landscapes.</string>
+
+    <string name="neuschwanstein_castle_more_info">The castle was intended as a home for the King,
+        until he died in 1886. It was open to the public shortly after his death. Since then more
+        than 61 million people have visited Neuschwanstein Castle. More than 1.3 million people visit
+        annually, with as many as 6,000 per day in the summer.</string>
+
+    <string name="museum_island_more_info">The Museum Island is a museum complex on the northern
+        part of the Spree Island in the historic heart of Berlin. It is one of the most visited
+        sights of Germany\'s capital and one of the most important museum sites in Europe.</string>
+
+    <string name="rothenburg_ob_der_tauber_more_info">It\'s a town in the district of Ansbach of
+        Mittelfranken (Middle Franconia), the Franconia region of Bavaria, Germany. It is well known
+        for its well-preserved medieval old town, a destination for tourists from around the world.
+        It is part of the popular Romantic Road through southern Germany.</string>
+
+    <string name="restaurants">Restaurants</string>
+    <string name="custom_search">CUSTOM SEARCH</string>
+    <string name="find">Find</string>
+    <string name="gyms">Gyms</string>
+    <string name="coffee">Coffee Shops</string>
+    <string name="Parks">Parks</string>
+    <string name="hair_salon">Hair Salons</string>
+    <string name="search">search</string>
+    <string name="edit">Edit</string>
+    <string name="about">About Jordan</string>
+    <string name="email">E-mail</string>
+    <string name="enter_new_email">enter new email</string>
+    <string name="username">Username</string>
+    <string name="enter_new_username">enter new username</string>
+    <string name="password">Password</string>
+    <string name="new_password">new password</string>
+    <string name="confirm_password_text_view">Confirm Password</string>
+    <string name="add_user">Add User</string>
+    <string name="search_item">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="jordan_culture_1">The culture of Jordan is based in Arabic and Islamic elements.
+        Jordan stands at the intersection of the three continents of the ancient world, lending it
+        geographic and population diversity. Notable aspects of the culture include traditional
+        music and clothing of Jordan, and interest in sports. These include football and basketball
+        as well as other imported sports, mainly from western Europe and the United States.</string>
+
+    <string name="jordan_culture_2">More than 40% of the population lives in the metropolis of
+        Amman, concentrating the culture of Jordan in that city. Jordanian pop culture is heavily
+        influenced by the West. European and American music, movies, fashion and other forms of
+        entertainment are popular among Jordan\'s people. Clubbing and partying culture are present
+        in Amman, especially in the Western half of the city. A small minority of youth, mostly
+        the richin West Amman. Amman is consistently declared one of the most westernised and
+        modern cities in the region. Malls, Western-brand stores, and hotels are important elements
+        in Amman\'s urban life, especially in the Western side.</string>
+
+    <string name="japan_culture_1">Ishin-denshin is a Japanese idiom which denotes a form of
+        interpersonal communication through unspoken mutual understanding. Isagiyosa is a virtue
+        of the capability of accepting death with composure. Cherry blossoms are a symbol of
+        isagiyosa in the sense of embracing the transience of the world. Hansei is a central
+        idea in Japanese culture, meaning to acknowledge one\'s own mistake and to pledge
+        improvement. Kotodama refers to the Japanese belief that mystical powers dwell in
+        words and names.</string>
+
+    <string name="japan_culture_2">Officially, Japan has 16 national, government-recognized
+        holidays. Public holidays in Japan are regulated by the Public Holiday Law (Kokumin no
+        Shukujitsu ni Kansuru Hōritsu) of 1948. Beginning in 2000, Japan implemented the Happy
+        Monday System, which moved a number of national holidays to Monday in order to obtain a
+        long weekend. The national holidays in Japan are New Year\'s Day on January 1, Coming of
+        Age Day on the second Monday of January, National Foundation Day on February 11, The
+        Emperor\'s Birthday on February 23, Vernal Equinox Day on March 20 or 21, Shōwa Day on
+        April 29, Constitution Memorial Day on May 3, Greenery Day on May 4, Children\'s Day on
+        May 5, Marine Day on the third Monday of July, Mountain Day on August 11, Respect for the
+        Aged Day on the third Monday of September, Autumnal Equinox on September 23 or 24, Health
+        and Sports Day on the second Monday of October, Culture Day on November 3, and Labor
+        Thanksgiving Day on November 23.</string>
+
+    <string name="canada_culture_1">Canadian literature is often divided into French- and
+        English-language literatures, which are rooted in the literary traditions of France and
+        Britain, respectively.[401] There are four major themes that can be found within historical
+        Canadian literature; nature, frontier life, Canada\'s position within the world, all three
+        of which tie into the garrison mentality. By the 1990s, Canadian literature was viewed as
+        some of the world\'s best. Canada\'s ethnic and cultural diversity are reflected in its
+        literature, with many of its most prominent modern writers focusing on ethnic life.
+        Arguably, the best-known living Canadian writer internationally (especially since the
+        deaths of Robertson Davies and Mordecai Richler) is Margaret Atwood, a prolific novelist,
+        poet, and literary critic.</string>
+
+    <string name="canada_culture_2">Numerous other Canadian authors have accumulated international
+        literary awards, including Nobel Laureate Alice Munro, who has been called the best living
+        writer of short stories in English; and Booker Prize recipient Michael Ondaatje, who is
+        perhaps best known for the novel The English Patient, which was adapted as a film of the
+        same name that won the Academy Award for Best Picture.</string>
+
+    <string name="norway_culture_1">Norway\'s culinary traditions show the influence of long
+        seafaring and farming traditions, with salmon (fresh and cured), herring (pickled or
+        marinated), trout, codfish, and other seafood, balanced by cheeses (such as brunost),
+        dairy products, and breads.</string>
+
+    <string name="norway_culture_2">Lefse is a Norwegian potato flatbread, usually topped with
+        large amounts of butter and sugar, most common around Christmas. Some traditional Norwegian
+        dishes include lutefisk, smalahove and raspeball. Some quirky Norwegian speciality is
+        rakefisk, which is a fermented trout, consumed with thin flatbread (flatbrød, not lefse)
+        and sour cream. And the most popular pastry among all population is vaffel. It is different
+        from Belgian in taste and consistency and is served with sour cream, brown cheese, butter
+        and sugar, or strawberry or raspberry jam, which can all be mixed or eaten separately.</string>
+
+    <string name="chile_culture_1">From the period between early agricultural settlements and
+        up to the late pre-Hispanic period, northern Chile was a region of Andean culture that
+        was influenced by altiplano traditions spreading to the coastal valleys of the north,
+        while southern regions were areas of Mapuche cultural activities. Throughout the colonial
+        period following the conquest, and during the early Republican period, the country\'s
+        culture was dominated by the Spanish.</string>
+
+    <string name="chile_culture_2">Other European influences, primarily English, French, and
+        German began in the 19th century and have continued to this day. German migrants influenced
+        the Bavarian style rural architecture and cuisine in the south of Chile in cities such as
+        Valdivia, Frutillar, Puerto Varas, Osorno, Temuco, Puerto Octay, Llanquihue, Faja Maisan,
+        Victoria and Puerto Montt.</string>
+
+    <string name="uae_culture_1">The United Arab Emirates (UAE) has a diverse society.
+        The country\'s historical population as a small tribal community that has changed with
+        the arrival of other nationals, in the mid-20th century. The country was also part of the
+        British Empire until 1971. Emirati culture is based on Arabian culture, with influences
+        from the cultures of East Africa and Indian Subcontinent. The religion of Islam has had a
+        prominent influence on local architecture, music, attire, cuisine, and lifestyle.</string>
+
+
+    <string name="uae_culture_2">Five times every day, Muslims are called to prayer from the
+        minarets of mosques, which are scattered around the country. The weekend begins on Friday
+        due to Friday being the holiest day for Muslims; most Muslim countries have a
+        Friday-Saturday or Thursday-Friday weekend. The city of Al Ain in Abu Dhabi is a
+        UNESCO World Heritage site. The Emirate of Sharjah was named \"The Cultural capital
+        of the Arab World\" by UNESCO in 1998 and the \"Capital of Islamic Culture for 2014\"
+        by the OIC.</string>
+
+    <string name="germany_culture_1">The birthplace of the modern printing press and of influential
+        schools of philosophy and artistic styles, Germany has long played an important role in
+        Western culture, and the arts have been central to Germany\’s idea of itself. Indeed,
+        the historian Hagen Schulze observed that.</string>
+
+    <string name="germany_culture_2">That ideal fell only when the German nation began to experiment
+        with power and expand militarily, but it remains fondly held by contemporary German
+        intellectuals as a model worthy of emulation in a new Europe. During the period of partition,
+        West Germany, as heir to Germany\’s older regions, was custodian of the greater portion of
+        the country\’s rich cultural legacy.</string>
+
+    <string name="profile">Profile</string>
+    <string name="back">Back</string>
+    <string name="logout">Logout</string>
+    <string name="leave">Leave</string>
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">Close Navigation Drawer</string>
+    <string name="change_password">CHANGE PASSWORD</string>
+    <string name="delete_all_users">DELETE ALL USERS</string>
+    <string name="usernameInProfile">Username:</string>
+    <string name="userEmailInProfile">Email:</string>
+    <string name="profile_activity_tip">*Click on an item to change.</string>
+    <string name="current_password">current password</string>
+    <string name="see_wikipedia">See Wikipedia</string>
+    <string name="learn_more">Learn More</string>
+    <string name="favourites">Favourites</string>
+    <string name="add_to_favourites">Add To Favourites</string>
+    <string name="empty_fav_countries">No Favourite Countries Yet</string>
+    <string name="empty_fav_attractions">No Favourite Attractions Yet</string>
+    <string name="clear_favourite_countries">Clear Favourite Countries</string>
+    <string name="clear_favourite_attractions">Clear Favourite Attractions</string>
+    <string name="sign_in_automatically">Sign In Automatically</string>
+    <string name="remove_from_favourites">Remove From Favourites</string>
+    <string name="see_details">See Details</string>
+    <string name="no_registered_users_yet">No Registered Users Yet</string>
+    <string name="go_to_favourites">Go To Favourites</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="rate_safar">Rate Safar</string>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

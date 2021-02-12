@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/see_details_itm"
+            android:title="@string/see_details" />
+
+    <item
+            android:id="@+id/add_or_remove_country_favourite"
+            android:title="@string/add_to_favourites" />
+
+</menu>

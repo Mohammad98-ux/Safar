@@ -1,0 +1,16 @@
+To support a new Country, you have to specify:
+- Name of the country (String).
+- Flag image of the country (Place it in the drawable folder).
+- Overview image of the country; it may be an image of some popular attraction (Place it in the drawable folder).
+- Additional information about the country, including:
+    - Location (eg. Asia, Middle East)
+    - Population (double).
+    - Area (float).
+    - Capital (String).
+    - Neighbouring countries (String).
+    - Currency (String.)
+    - Quick history paragraph.
+- List of popular dishes in that country.
+- Culture of the country
+    - Overview image.
+    - Two String statements.

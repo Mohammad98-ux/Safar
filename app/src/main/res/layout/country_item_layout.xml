@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"
+        tools:background="#111111">
+
+    <ImageView
+            android:id="@+id/country_image"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="fitXY"
+            tools:src="@drawable/jordan_overview_petra" />
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/country_image"
+            android:layout_centerHorizontal="true">
+
+        <TextView
+                android:id="@+id/country_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:textColor="#BBBBBB"
+                android:textScaleX="1.1"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                tools:text="Jordan" />
+
+        <ImageView
+                android:id="@+id/country_flag"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@id/country_name"
+                android:layout_toRightOf="@id/country_name"
+                android:scaleType="fitXY"
+                tools:src="@drawable/jordan_flag" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+

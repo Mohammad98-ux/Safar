@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/background_black"
+        android:orientation="vertical">
+
+    <RelativeLayout
+            android:id="@+id/coffee_shops_RL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+        <ImageView
+                android:id="@+id/coffee_shops_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/coffee_cup_icon" />
+
+        <TextView
+                android:id="@+id/coffee_shops"
+                style="@style/PublicPlacesDialogTextViews"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@id/coffee_shops_image"
+                android:layout_toRightOf="@id/coffee_shops_image"
+                android:text="@string/coffee"
+                android:textSize="24sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/hair_salon_RL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+        <ImageView
+                android:id="@+id/hair_salon_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/hair_salon_icon" />
+
+        <TextView
+                style="@style/PublicPlacesDialogTextViews"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@id/hair_salon_image"
+                android:layout_toRightOf="@id/hair_salon_image"
+                android:text="@string/hair_salon"
+                android:textSize="24sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/restaurant_RL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+        <ImageView
+                android:id="@+id/restaurant_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/restaurant_icon" />
+
+        <TextView
+                style="@style/PublicPlacesDialogTextViews"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@id/restaurant_image"
+                android:layout_toRightOf="@id/restaurant_image"
+                android:text="@string/restaurants"
+                android:textSize="24sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/parks_RL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+        <ImageView
+                android:id="@+id/parks_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/park_icon" />
+
+        <TextView
+                style="@style/PublicPlacesDialogTextViews"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@id/parks_image"
+                android:layout_toRightOf="@id/parks_image"
+                android:text="@string/Parks"
+                android:textSize="24sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/gyms_RL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+        <ImageView
+                android:id="@+id/gyms_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/gym_icon" />
+
+        <TextView
+                style="@style/PublicPlacesDialogTextViews"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@id/gyms_image"
+                android:layout_toRightOf="@id/gyms_image"
+                android:text="@string/gyms"
+                android:textSize="24sp" />
+
+    </RelativeLayout>
+
+    <EditText
+            android:id="@+id/custom_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="@string/custom_search"
+            android:textColor="#DDDDDD"
+            android:textColorHint="#BBBBBB" />
+
+    <Button
+            android:id="@+id/custom_search_btn"
+            style="@style/ButtonsStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/rounded_corner_button"
+            android:text="@string/search" />
+
+</LinearLayout>

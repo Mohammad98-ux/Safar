@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+                android:id="@+id/nav_back_itm"
+                android:icon="@drawable/back_icon"
+                android:title="@string/back" />
+
+        <item
+                android:id="@+id/nav_profile_itm"
+                android:icon="@drawable/profile_icon"
+                android:title="@string/profile" />
+
+        <item
+                android:id="@+id/nav_favourites_itm"
+                android:icon="@drawable/favourites_icon"
+                android:title="@string/favourites" />
+
+        <item
+                android:icon="@drawable/rate_icon"
+                android:title="@string/rate_safar" />
+
+        <item
+                android:icon="@drawable/feedback_icon"
+                android:title="@string/send_feedback" />
+    </group>
+
+    <item android:title="@string/leave">
+        <menu>
+            <item
+                    android:id="@+id/nav_logout_itm"
+                    android:icon="@drawable/logout_icon"
+                    android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>
